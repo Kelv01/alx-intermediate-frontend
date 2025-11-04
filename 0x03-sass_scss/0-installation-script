@@ -1,0 +1,5 @@
+1. Navigated to the alx-intermediate-frontend repository.
+2. Created a new directory named 0x03-sass_scss.
+3. Initialized npm in the directory using `npm init -y`.
+4. Installed SASS locally (version 3.7.4) using `npm install sass@3.7.4 --save-dev`.
+5. Verified the installation using `npx sass --version`.
