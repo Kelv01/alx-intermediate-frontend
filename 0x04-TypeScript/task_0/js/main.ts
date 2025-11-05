@@ -18,16 +18,16 @@ const student2: Student = {
   location: "Nairobi",
 };
 
-const studentList: Student[] = [student1, student2];
+const studentsList: Student[] = [student1, student2];
 
 //table element
 const table = document.createElement("table");
 
-studentList.forEach((student) => {
+studentsList.forEach((student) => {
   const row = document.createElement("tr");
 
   const nameCell = document.createElement("td");
-  nameCell.textContent = student.location;
+  nameCell.textContent = student.firstName;
 
   const locationCell = document.createElement("td");
   locationCell.textContent = student.location;
